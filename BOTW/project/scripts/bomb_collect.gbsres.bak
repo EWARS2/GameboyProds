@@ -1,0 +1,30 @@
+{
+  "_resourceType": "script",
+  "id": "46672ec4-8be1-4071-8aa4-b66d6626a479",
+  "name": "Bomb Collect",
+  "symbol": "script_4",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "0"
+      },
+      "id": "ae58953d-c85f-4189-9728-edfc49c5a445"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "15c0e22d-f88e-48be-9a8b-b658c7815613"
+    }
+  ]
+}

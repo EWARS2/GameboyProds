@@ -1,0 +1,15 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Player's Bombs",
+      "symbol": "var_player_s_bombs"
+    },
+    {
+      "id": "3c6891e0-06b8-4e43-9f2b-f5635053672e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    }
+  ]
+}
