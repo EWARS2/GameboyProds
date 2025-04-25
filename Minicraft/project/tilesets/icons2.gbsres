@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c46ccc12-797a-4194-a9f9-be2d1f521b95",
+  "name": "icons2",
+  "symbol": "tileset_icons2",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "icons2.png"
+}

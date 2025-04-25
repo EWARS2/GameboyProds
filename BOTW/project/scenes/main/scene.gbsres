@@ -1,0 +1,82 @@
+{
+  "_resourceType": "scene",
+  "id": "d4516ded-c637-4eea-8364-c46e48e75efa",
+  "_index": 0,
+  "type": "ADVENTURE",
+  "name": "main",
+  "symbol": "scene_1",
+  "x": 232,
+  "y": 144,
+  "width": 110,
+  "height": 60,
+  "backgroundId": "5996d6be-cc6f-4397-9fee-0b0d966e4975",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "default-bg-4",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+        "__comment": true
+      },
+      "id": "7c90949d-15b8-461f-9289-414851afa8df"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "3f85849c-5030-4262-b8b8-4f6f7d4e32b1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d863f4e6-c0b0-4d3a-b7a8-98bd26237b7d"
+            },
+            "id": "d41c472c-5fff-4fe7-bcea-1f7d4ff25389"
+          }
+        ]
+      },
+      "id": "2dab284b-c471-4ab2-b84f-1e99cb5e776b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fe+1f2+0fe+0050+0fe+1f2+0fe+0050+0fe+1f2+0f1a+0044+0fe+1f2+0f1a+0044+0fe+1f2+0f2c+0024+0f4+00a+0fe+1f2+0f2c+0024+0f4+00a+0fe+1f2+0f54+00a+0fe+1f2+0f54+00a+0fe+1f2+0f54+00a+0fe+1f2+0f54+0012+1fa+0f8+006+0fc+004a+1fa+0f8+006+0fc+004a+1fa+0f4+0010+0fc+008+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0fa+0012+1fa+0f4+0010+0fc+008+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0fa+0014+1f2+0fa+0010+0f10+001e+0f10+0014+1f2+0fa+0010+0f10+001e+0f10+0014+1f2+0fc+008+0f14+0028+0f8+0014+1f2+0fc+008+0f14+0028+0f8+0014+1f2+0fc+008+0f10+00a+1f6+0fc+0016+0f2+0014+1f2+0fc+008+0f10+00a+1f6+0fc+0016+0f2+0014+1f8+0f8+004+0fc+00e+1f6+003a+1f8+0f8+004+0fc+00e+1f6+0040+1fa+0014+0f12+004+0f8+0032+1fa+0014+0f12+004+0f8+002a+0f4+00c+1f2+0028+0f2+0014+0fa+0014+0f4+00c+1f2+0028+0f2+0014+0fa+0024+1f4+0038+0f4+00a+0f4+0020+1f4+0038+0f4+00a+0f4+0022+1f16+0058+1f16+0058+0f6+00c+1f12+004+0f6+0014+0f6+1f6+0020+0f6+00c+1f12+004+0f6+0014+0f6+1f6+0020+0f6+001c+1f16+102+1f10+0024+0f6+001c+1f16+102+1f10+0022+0fa+0024+1f6+00e+1f4+0028+0fa+0024+1f6+00e+1f4+0026+0fe+0024+1f2+0012+1f2+0026+0fe+0024+1f2+0012+1f2+0022+0f36+1f2+002+0f6+002+0f6+002+1f2+0022+0f36+1f2+002+0f6+002+0f6+002+1f2+0022+0f36+1f2+0f2+00e+0f2+1f2+00e+0f2+0012+0f36+1f2+0f2+00e+0f2+1f2+00e+0f2+0012+0f36+1f2+0f2+00e+0f2+1f2+00c+0f2+0014+0f36+1f2+0f2+00e+0f2+1f2+00c+0f2+0018+0f32+1f2+0f2+00e+0f2+1f2+00a+0f2+001a+0f32+1f2+0f2+00e+0f2+1f2+00a+0f2+0026+0f26+1f2+0f2+00e+0f2+1f2+00a+0f2+0026+0f26+1f2+0f2+00e+0f2+1f2+00a+0f2+0042+0fa+1f2+002+0fe+002+1f2+00c+0f2+0040+0fa+1f2+002+0fe+002+1f2+00c+0f2+004a+1f2+0012+1f2+0058+1f2+0012+1f2+0058+1f24+004a+1f24+00296+"
+}

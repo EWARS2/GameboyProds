@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "c2e93b25-8da9-49cf-8167-a982d7ab8abd",
+  "name": "Darknut",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "29c9b51e-7086-4e0f-95fb-da26384f090d",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b0b2aee5-7189-45bc-8272-3449c76ae17b"
+      },
+      "id": "c197643f-e969-4f79-b500-c833f65c17e3"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6acdb1e8-7aa7-4214-b578-d6edc8192da4",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "__collapse": false
+      },
+      "id": "8c1a1618-2b49-4e68-9085-7cf342450856"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "46992cf6-3bdb-428c-90e6-e8003e3a7b3c",
+  "name": "monsterhurt.wav",
+  "symbol": "sound_monsterhurt_wav",
+  "filename": "monsterhurt.wav",
+  "type": "wav"
+}

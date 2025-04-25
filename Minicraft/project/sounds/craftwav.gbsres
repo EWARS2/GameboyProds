@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5fd5b248-17f8-4f33-a1ab-eaf0f4566162",
+  "name": "craft.wav",
+  "symbol": "sound_craft_wav",
+  "filename": "craft.wav",
+  "type": "wav"
+}

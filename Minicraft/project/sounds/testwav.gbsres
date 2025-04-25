@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5575428d-d5bd-475a-ab50-c4702d9981d0",
+  "name": "test.wav",
+  "symbol": "sound_test_wav",
+  "filename": "test.wav",
+  "type": "wav"
+}

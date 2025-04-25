@@ -1,0 +1,21 @@
+Health
+Enemy damage knockback
+Destructable Trees
+Raft mechanics
+
+
+
+GFX
+===
+Campfire
+Stick
+Leaf
+
+
+
+Actions
+=======
+Attack
+Bomb
+Arrow
+Leaf

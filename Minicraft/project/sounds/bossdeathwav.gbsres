@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "9892b2d2-3922-4dd9-ba65-4e35e99b692c",
+  "name": "bossdeath.wav",
+  "symbol": "sound_bossdeath_wav",
+  "filename": "bossdeath.wav",
+  "type": "wav"
+}

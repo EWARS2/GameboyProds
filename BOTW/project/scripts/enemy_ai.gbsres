@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "6acdb1e8-7aa7-4214-b578-d6edc8192da4",
+  "name": "Enemy AI",
+  "symbol": "script_1",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Player X",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Player Y",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "V0",
+        "vectorY": "V1",
+        "units": "pixels",
+        "__comment": false,
+        "__collapse": true
+      },
+      "id": "25b6980f-0d53-4312-8d45-b30b308f647b"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "units": "pixels",
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "53849ced-c7d0-4d78-88dc-18a7bb8a8130"
+    }
+  ]
+}

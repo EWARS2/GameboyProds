@@ -1,0 +1,27 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "77c4041b-e720-4393-af2f-2e063fdcc55e",
+  "name": "Bomb",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1d447b1-473c-4974-9363-6adfbd41cac2",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "2",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "46672ec4-8be1-4071-8aa4-b66d6626a479"
+      },
+      "id": "dbf1f6de-0bd5-46c8-9a1f-d8be989ba0ac"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

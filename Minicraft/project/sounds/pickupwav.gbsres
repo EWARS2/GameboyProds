@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "2d393cfd-a35c-4ac3-8aec-297887bb4060",
+  "name": "pickup.wav",
+  "symbol": "sound_pickup_wav",
+  "filename": "pickup.wav",
+  "type": "wav"
+}

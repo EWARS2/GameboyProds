@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0054a2bd-deb8-479f-9ec5-3b9850c3ddcb",
+  "name": "SNES - Super Mario Kart - Donut Plains 1",
+  "symbol": "bg_snes_super_mario_kart_do",
+  "width": 128,
+  "height": 128,
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "filename": "SNES - Super Mario Kart - Donut Plains 1.png",
+  "tileColors": "",
+  "autoColor": false
+}

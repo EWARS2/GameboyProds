@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "a1b3b805-3533-4aa1-81c9-7415e723e17b",
+  "name": "Moblin",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f9016978-2f33-4e55-9017-4596de1ba242",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b0b2aee5-7189-45bc-8272-3449c76ae17b"
+      },
+      "id": "8ee38c00-9265-4c61-b056-2ef3503bbb5c"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6acdb1e8-7aa7-4214-b578-d6edc8192da4",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "__collapse": false
+      },
+      "id": "5ef38eb6-fc39-47d2-b0a2-bbe6c064fcc0"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

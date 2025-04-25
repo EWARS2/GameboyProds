@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "d67ed808-d747-4c23-b0be-de63b219f03d",
+  "name": "playerhurt.wav",
+  "symbol": "sound_playerhurt_wav",
+  "filename": "playerhurt.wav",
+  "type": "wav"
+}
